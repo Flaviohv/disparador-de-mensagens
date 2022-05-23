@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@1.100 & display=swap');
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    justify-content: center;
+    background-image: url(/imagens/WhatsApp-Background.jpg);
+    font-family: 'Roboto', sans-serif;
+    
+}
+#caixas{
+    background-color: #daf7c1;
+    width: 320px;
+    margin: 8px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    box-shadow: 4px 6px rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#caixas:hover{
+    box-shadow: 4px 6px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+
+footer{
+background: #a39d9db3;
+width: 100%;
+position: absolute;
+bottom: 0.0;
+
+}
+.copyright {
+    font-size: 1.9rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
